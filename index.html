@@ -1,0 +1,253 @@
+<html>
+<head>
+    <title>Pdf.converted-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hi1">
+        <h3>Chapter XI</h3>
+            <h1>The Role Of
+Simulation And Modern
+Business Games</h1>
+        <h4>Probabilistic or Stochastic Process</h4>
+            <p>
+            “Probability or stochastic process” is a name used to designate mathematical
+models that represent the behavior of phenomena described by probability
+theory, ranging from a simple game of coin tossing up to more complex
+phenomenon like “Brownian motion theory”, “investment analysis”, etc.
+Stochastic process uses mathematical models to represent phenomena ruled by
+the probabilistic variation of some variable over time.<br>
+           </p>
+        </div>
+    <div class="hi1">
+        
+            <p>
+            Simulation methods, also known as Monte Carlo methods, are stochastic
+processes that use mathematical models that have similar behavior of real
+problems, feeding these models with random values generated according to
+some probability distribution. The term Monte Carlo is used as a synonym for
+simulation since in some problems the generation of probabilistic values was
+historically linked to the use of the roulette wheel.<br>
+           </p>
+        </div>
+    <div class="hi1">
+        
+            <p>
+            In this chapter we show how simulation method can be used to evaluate
+complex decision problems involving uncertainty. This kind of problem involves knowledge of probability distribution (such as uniform, Poisson, or Normal
+distribution) used to represent the probabilistic process and the value of
+respective parameters (such as the average value and the standard deviation).
+
+           </p>
+        </div>
+    <div class="hi1">
+        
+            <p>
+            Simulation is the most appropriate tool for visualizing, testing, and evaluating the
+parameters and the dynamic behavior of a probabilistic process. Simulation
+uses algorithms that generate a population of probabilistic events which makes
+possible the estimation of the values of parameters of the problem. The results
+of a simulation can be proven to be valid approximations of the values of the real
+phenomenon which they simulate.
+           </p>
+        </div>
+     <div class="hi2">
+      
+            <h2>Using Simulation to Compare
+Multiple-Stage Strategic Decisions</h2>
+        
+            <p>
+            In previous chapters, several aspects of decision problems, involving the choice
+of the best alternative, uncertainties, multiple scenarios, multiple goals, etc.,
+have been studied. However those were cases of decision for only one stage.
+Many complex strategic-decision problems are formed by a dynamic sequence
+of decision problems involving multiple stages of decisions. These problems are
+more appropriately represented using a decision tree, and simulation is used
+to make comparisons of different strategies along the decision tree.
+Let us consider the following two-stage strategies:<br>
+           </p>
+        </div>
+    <div class="hi3">
+      
+            <h4>Strategy A</h4>
+    </div>
+     <div class="hi2">
+           <p>
+            Stage one: Invest in a high-risk stock whose payoff (Payoff-A) can be
+negative or positive values. Past data show that the payoff value varies from -
+$100 (maximum loss) to +$100 (maximum profit);<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            Stage two:<br>
+a. if Payoff-A is a positive value less than $50, then the investor must pay $30
+as expenses, or if Payoff-A is a positive value greater than $50, then the
+investor must pay $50 as expenses;<br>
+b. if Payoff-A is a negative value between $0 and (-$50), then the investor
+must pay $20 as expenses, or if Payoff-A is a negative value less than (-
+$50), then the investor pays $0 as expenses.<br>
+           </p>
+        </div>
+     <div class="hi3">
+      
+            <h4>Strategy B</h4>
+    </div>
+    <div class="hi2">
+           <p>
+            Stage one: Invest in a high-risk stock whose payoff (Payoff-B) can be negative
+or positive values. Past data show that the payoff value varies from -$120
+(maximum loss) to +$120 (maximum profit);
+<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            Stage two:<br>
+a. if Payoff-B is a positive value less than $60, then the investor must pay $30
+as expenses, or if Payoff-B is a positive value greater than $60, then the
+investor must pay $50 as expenses;<br>
+b. if Payoff-B is a negative value between $0 and (-$60), then the investor
+must pay $20 as expenses, or if Payoff-B is a negative value less than
+(-$60), then the investor pays $0 as expenses.<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            In this simple project, the selection of strategy A or B depends on the results
+of the following events:<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            a. “Payoff-A” and “Payoff-B”, with two possible results: positive or negative
+values;<br>
+b. “positive value of Payoff A or B” results in two possible values for
+expenses;<br>
+c. “negative value of Payoff A or B” also results in two possible expenses;
+which provide 2 2 2 = 8 possible results.<br>
+           </p>
+        </div>
+    <div class="hi4">
+       
+            <h2>Stochastic Analysis to Compare Two Similar Strategies
+</h2>
+        
+            <p>
+            “The analysis of a probabilistic decision problem to a broader band of variation
+of the parameter values is made by a simulation study, using probability
+distribution attributed to each value of the estimated parameter.
+<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            The estimated value of a parameter is used as the mean or average value of the
+distribution. Asking an expert, it is possible to define an “upper limit” for this
+average, such that only 5% of the possible values of this parameter surpass this
+upper limit. In a similar fashion, it is possible to define a “lower limit” such that
+only 5% of the possible values will be lower than this limit. In probability terms,
+this procedure corresponds to defining a confidence interval for the average
+value with 90% confidence.<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            If the decision maker and the expert agree that the average value provided by
+the estimate is located in a symmetric position with relation to these two limits,
+the normal distribution can be used. If not, one can evaluate the possibility of
+using other type of distributions such as the exponential, log-normal, beta,
+gamma distribution, etc.<br>
+           </p>
+        </div>
+     <div class="hi2">
+           <p>
+            In our case, we are assuming that the value of the Payoffs (negative or positive
+values) has a normal distribution with the average equal to the value estimated
+by the expert and the standard deviation equals to 25% of the difference
+between this average and one of the limits found. In the case of normal
+distribution an interval defined by the expression ± 4 (the average value
+plus and minus four times the standard deviation) corresponds to approximately 90% of the possibilities of occurrence of the values of this distribution.<br>
+           </p>
+        </div>
+     <div class="hi2">
+           <p style="font-size: 18px;">
+            Using these distributions the first stage of strategy A and B becomes:<br>
+           </p>
+        </div>
+    <div class="hi3">
+      
+            <h4 style="font-size: 22px;">Strategy A</h4>
+    </div>
+    <div class="hi2">
+           <p>
+            Stage one: Invest in a high-risk stock whose payoff (Payoff-A) is distributed
+according:<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p style="font-style: italic;">
+            To N ( = $0, = $25), a Normal distribution with average value and
+standard deviation equal to $0 and $25, respectively; and<br>
+           </p>
+        </div>
+    <div class="hi3">
+      
+            <h4 style="font-size: 22px;">Strategy B</h4>
+    </div>
+    <div class="hi2">
+           <p>
+            Stage one: Invest in a high-risk stock whose payoff (Payoff-B) is distributed
+according:<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p style="font-style: italic;">
+            To N ( = $0, = $30), a Normal distribution with average value and
+standard deviation equal to $0 and $30, respectively.
+<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            We are admitting that events in stage two do not involve probability distribution.
+Payoff’s normal distribution functions and decision trees for strategies A and
+B are as shown in Figure 11.1.<br>
+           </p>
+        </div>
+     <div class="hi2">
+           <p>
+           The simulation process to generate the Net values (Payoff minus expenses) for
+both strategies A and B is the following:<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p style="font-style: italic; font-size: 19px;">
+           Figure 11.1. Payoff-A and Payoff-B probability distributions and the
+decision tree<br>
+               <img src="Screenshot%202024-01-19%20144338.png">
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+            • generate a normally distributed random value (using an algorithm or
+appropriate software for simulation);<br>
+• using this random value make appropriate calculation of stage two to have
+the final net value (positive or negative) for the strategy A or B.<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+           For example, if the Payoff-A value generated is $76, the expenditure will be
+$50 and then the net value is $26; if Payoff-B value is -$67, the expenditure is
+zero and the final net value is -$67, and so on.<br>
+           </p>
+        </div>
+    <div class="hi2">
+           <p>
+          Table 11.1 presents results of 30 simulated events (net values) for strategy A
+and 30 events for B. The first column of this table shows intervals for the net<br>
+           </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    margin: 10em;
+}
+div h1{
+    padding: 7px 400px;
+}
+div h3{
+    padding: 7px 500px;
+}
+div.hi1 h4{
+     border-bottom: 5px solid black;
+}
+}
+div.hi2 h2{
+     border-bottom: 5px solid black;
+}
+div h2{
+     padding: 7px 400px;
+    border-bottom: 5px solid black;
+}
+div.hi4 h2{
+    padding: 5px 100px;
+    border-bottom: 5px solid black;  
+}
+
+div.hi1 p{
+    text-align: justify;
+    
+  text-indent: 30px;
+
+}
+img{
+    padding: 0 300px;
+}
